@@ -116,7 +116,6 @@ class User_register:
         citizen_province = input("Enter citizen province: ")
 
         if citizen_age >= 18:
-            print("woow.. ok..")
 
             citizen_nic = input("Enter candidate nic: ")
             if nicparser.NICParser(citizen_nic):
